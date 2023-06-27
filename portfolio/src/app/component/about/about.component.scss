@@ -8,17 +8,51 @@
     border-radius: 50%;
     width: 20%;
     position: absolute;
-    top: -16vw;
+    top: -13vw;
     left: 2%;
 }
 h1{
- text-shadow: 3px 3px 5px #fff;
+ text-shadow: 3cap 3px 5px #fff;
 }
 .name{
     font-size: 3rem;
+
 }
 .quialification{
     font-size: 2rem;
 }
+}
+}
+
+@media (min-width: 576px){
+    #faceimgg{
+        position: absolute;
+        width: 20%;
+    }
+}
+
+@media (max-width: 575px){
+    #faceimgg{
+        position: absolute;
+        width: 30%;
+        left: 35%;
+        top: -100px;
+    }
+}
+
+@media (min-width: 576px){
+    #textosobremi{
+        
+        margin-top: -200px;
+        margin-left: 25%;
+       
+    }
+}
+
+@media (max-width: 575px){
+    #textosobremi{
+        margin-top: 5%;
+        
+       
 }
 }

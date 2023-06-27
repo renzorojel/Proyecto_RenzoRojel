@@ -7,6 +7,8 @@ import { BarraNavComponent } from './component/barra-nav/barra-nav.component';
 import { BannerComponent } from './component/banner/banner.component';
 import { HeaderComponent } from './component/header/header.component';
 import { AboutComponent } from './component/about/about.component';
+import { ExpComponent } from './component/exp/exp.component';
+import { EducacionComponent } from './component/educacion/educacion.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AboutComponent } from './component/about/about.component';
     BarraNavComponent,
     BannerComponent,
     HeaderComponent,
-    AboutComponent
+    AboutComponent,
+    ExpComponent,
+    EducacionComponent
   ],
   imports: [
     BrowserModule,
