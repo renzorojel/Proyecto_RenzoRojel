@@ -1,4 +1,4 @@
-package com.portfoliorr.mgb;
+package com.porftoliorr.mgb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

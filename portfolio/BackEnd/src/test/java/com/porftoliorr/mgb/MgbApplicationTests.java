@@ -1,4 +1,4 @@
-package com.portfoliorr.mgb;
+package com.porftoliorr.mgb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
