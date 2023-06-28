@@ -23,17 +23,17 @@ public class PersonaController {
         return ipersonaService.getPersona();
     }
     
-    @PostMapping("/personas/crear")
+@PostMapping("/personas/crear")
     public String createPersona(@RequestBody Persona persona){
         ipersonaService.savePersona(persona);
         return "La persona fue creada con exito";
     }
-    @DeleteMapping("/persona/borrar/ {id}")
+@DeleteMapping("/persona/borrar/ {id}")
     public String delatePersona(@PathVariable Long id){
         ipersonaService.delatePersona(id);
         return "La persoa fue borada con exito";
     }
-    @PutMapping("/persona/editar/(id)")
+@PutMapping("/persona/editar/(id)")
     public Persona editPersona(@PathVariable Long id,
             @RequestParam("nombre") String nuevoNombre,
             @RequestParam("apeliido") String nuevoApellido,
