@@ -1,13 +1,13 @@
-package com.porftoliorr.Renzorojel;
+package com.portfolio.PorfolioBackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RenzorojelApplication {
+public class PorfolioBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RenzorojelApplication.class, args);
+		SpringApplication.run(PorfolioBackendApplication.class, args);
 	}
 
 }
