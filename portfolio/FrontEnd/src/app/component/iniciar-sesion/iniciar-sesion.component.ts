@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-iniciar-sesion',
   templateUrl: './iniciar-sesion.component.html',
@@ -7,7 +9,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class IniciarSesionComponent implements OnInit {
 form:FormGroup
-constructor(private formBuilder:FormBuilder){
+constructor(private formBuilder:FormBuilder, private ruta:Router){
 this.form=this.formBuilder.group(
 
 {
@@ -37,4 +39,6 @@ get Password(){
 }
 
 
-}
+    }
+
+

@@ -16,6 +16,7 @@ import { PortfolioComponent } from './component/portfolio/portfolio.component';
 import { IniciarSesionComponent } from './component/iniciar-sesion/iniciar-sesion.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
