@@ -12,6 +12,9 @@ import { EducacionComponent } from './component/educacion/educacion.component';
 import { HysComponent } from './component/hys/hys.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { FooterComponent } from './component/footer/footer.component';
+import { PortfolioComponent } from './component/portfolio/portfolio.component';
+import { IniciarSesionComponent } from './component/iniciar-sesion/iniciar-sesion.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,12 +26,16 @@ import { FooterComponent } from './component/footer/footer.component';
     ExpComponent,
     EducacionComponent,
     HysComponent,
-    FooterComponent
+    FooterComponent,
+    PortfolioComponent,
+    IniciarSesionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     NgCircleProgressModule.forRoot({})
+
   ],
   providers: [],
   bootstrap: [AppComponent]
