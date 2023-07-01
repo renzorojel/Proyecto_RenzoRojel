@@ -15,6 +15,9 @@ import { FooterComponent } from './component/footer/footer.component';
 import { PortfolioComponent } from './component/portfolio/portfolio.component';
 import { IniciarSesionComponent } from './component/iniciar-sesion/iniciar-sesion.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ApiPipe } from './api.pipe';
+import { LoginComponent } from './interfaces/login/login.component';
+import { EnvironmentsComponent } from './ambientes/environments/environments.component';
 
 
 @NgModule({
@@ -29,7 +32,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     HysComponent,
     FooterComponent,
     PortfolioComponent,
-    IniciarSesionComponent
+    IniciarSesionComponent,
+    ApiPipe,
+    LoginComponent,
+    EnvironmentsComponent
   ],
   imports: [
     BrowserModule,
